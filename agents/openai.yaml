@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-shop-002"
+  short_description: "Signature-dish main images: name first, appetite second."
+  default_prompt: "Use $xxd-shop-002; require a dish name, treat a dish photo as the authority for plating and ingredients, keep the bundled original brief as the sole aesthetic authority, let the model generate only store-voice recommendation stickers while status stickers need the user's word and sales, ranking or award claims need supplied facts, warn before a text-free run, and deliver fresh PNGs in one flat task directory."
+
+policy:
+  allow_implicit_invocation: true
