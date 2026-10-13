@@ -7,6 +7,144 @@
  "set": null,
  "items": [
   {
+   "id": "c01",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "外卖主图",
+    "en": "Delivery-app image"
+   },
+   "product": {
+    "zh": "麻辣小龙虾",
+    "en": "Spicy crayfish"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
+   "hero": false,
+   "file": "c01-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "c02",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "name",
+   "use": {
+    "zh": "菜单主推",
+    "en": "Menu feature"
+   },
+   "product": {
+    "zh": "珍珠奶茶",
+    "en": "Bubble milk tea"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "茶饮",
+    "en": "Tea"
+   },
+   "hero": false,
+   "file": "c02-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "c03",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "外卖主图",
+    "en": "Delivery-app image"
+   },
+   "product": {
+    "zh": "生煎包",
+    "en": "Pan-fried buns"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
+   "hero": false,
+   "file": "c03-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "c04",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "name",
+   "use": {
+    "zh": "电商主图",
+    "en": "Listing image"
+   },
+   "product": {
+    "zh": "自热火锅",
+    "en": "Self-heating hot pot"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
+   "hero": false,
+   "file": "c04-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "c05",
+   "section": "category",
+   "ratio": "16:9",
+   "input": "name",
+   "use": {
+    "zh": "门头灯箱",
+    "en": "Storefront lightbox"
+   },
+   "product": {
+    "zh": "三文鱼寿司拼盘",
+    "en": "Salmon sushi platter"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
+   "hero": false,
+   "file": "c05-category-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "c06",
+   "section": "category",
+   "ratio": "9:16",
+   "input": "name",
+   "use": {
+    "zh": "门店竖屏",
+    "en": "Store vertical screen"
+   },
+   "product": {
+    "zh": "生椰拿铁",
+    "en": "Coconut latte"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "茶饮",
+    "en": "Tea"
+   },
+   "hero": false,
+   "file": "c06-category-9x16-941x1672.png",
+   "pixels": "941x1672"
+  },
+  {
    "id": "s01",
    "section": "size",
    "ratio": "1:1",
@@ -21,6 +159,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
    "hero": true,
    "file": "s01-size-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -40,6 +182,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
    "hero": false,
    "file": "s02-size-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -59,6 +205,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
    "hero": false,
    "file": "s03-size-9x16-941x1672.png",
    "pixels": "941x1672"
@@ -78,6 +228,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
    "hero": false,
    "file": "s04-size-16x9-1672x941.png",
    "pixels": "1672x941"
@@ -97,6 +251,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "咖啡",
+    "en": "Coffee"
+   },
    "hero": false,
    "file": "s05-category-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -116,6 +274,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
    "hero": false,
    "file": "s06-category-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -135,6 +297,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
    "hero": false,
    "file": "s07-category-4x5-1122x1402.png",
    "pixels": "1122x1402"
@@ -154,6 +320,10 @@
    },
    "text": "prompt en-US",
    "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
    "hero": false,
    "file": "s08-special-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -173,6 +343,10 @@
    },
    "text": "prompt ja-JP",
    "visual_review": "passed",
+   "cat": {
+    "zh": "餐饮",
+    "en": "Restaurant"
+   },
    "hero": false,
    "file": "s09-special-1x1-1254x1254.png",
    "pixels": "1254x1254"

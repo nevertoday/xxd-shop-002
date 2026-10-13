@@ -4,6 +4,12 @@
 
 | 文件 | 用途 | 实际像素 | 输入 | 文字方式 | visual_review |
 |---|---|---|---|---|---|
+| `c01-category-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 仅商品名称 | prompt zh-CN | passed |
+| `c02-category-3x4-1086x1448.png` | 菜单主推 | 1086x1448 | 仅商品名称 | prompt zh-CN | passed |
+| `c03-category-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 仅商品名称 | prompt zh-CN | passed |
+| `c04-category-4x5-1122x1402.png` | 电商主图 | 1122x1402 | 仅商品名称 | prompt zh-CN | passed |
+| `c05-category-16x9-1672x941.png` | 门头灯箱 | 1672x941 | 仅商品名称 | prompt zh-CN | passed |
+| `c06-category-9x16-941x1672.png` | 门店竖屏 | 941x1672 | 仅商品名称 | plan zh-CN | passed |
 | `s01-size-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 原图 `beef-noodle` | prompt zh-CN | passed |
 | `s02-size-3x4-1086x1448.png` | 菜单主推 | 1086x1448 | 原图 `beef-noodle` | prompt zh-CN | passed |
 | `s03-size-9x16-941x1672.png` | 门店竖屏 | 941x1672 | 原图 `beef-noodle` | prompt zh-CN | passed |
