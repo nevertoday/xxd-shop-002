@@ -4,27 +4,31 @@
 
 | 文件 | 用途 | 实际像素 | 输入 | 文字方式 | visual_review |
 |---|---|---|---|---|---|
-| `c01-category-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 仅商品名称 | prompt zh-CN | passed |
-| `c02-category-3x4-1086x1448.png` | 菜单主推 | 1086x1448 | 仅商品名称 | prompt zh-CN | passed |
-| `c03-category-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 仅商品名称 | prompt zh-CN | passed |
-| `c04-category-4x5-1122x1402.png` | 电商主图 | 1122x1402 | 仅商品名称 | prompt zh-CN | passed |
-| `c05-category-16x9-1672x941.png` | 门头灯箱 | 1672x941 | 仅商品名称 | prompt zh-CN | passed |
-| `c06-category-9x16-941x1672.png` | 门店竖屏 | 941x1672 | 仅商品名称 | plan zh-CN | passed |
-| `s01-size-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 原图 `beef-noodle` | prompt zh-CN | passed |
-| `s02-size-3x4-1086x1448.png` | 菜单主推 | 1086x1448 | 原图 `beef-noodle` | prompt zh-CN | passed |
-| `s03-size-9x16-941x1672.png` | 门店竖屏 | 941x1672 | 原图 `beef-noodle` | prompt zh-CN | passed |
-| `s04-size-16x9-1672x941.png` | 门头灯箱 | 1672x941 | 原图 `beef-noodle` | prompt zh-CN | passed |
-| `s05-category-3x4-1086x1448.png` | 菜单主推 | 1086x1448 | 原图 `cold-brew` | prompt zh-CN | passed |
+| `c01-category-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | Logo `logo-laowan.png` | prompt zh-CN | passed |
+| `c02-category-3x4-1086x1448.png` | 菜单主推 | 1086x1448 | Logo `logo-shanyu.png` | prompt zh-CN | passed |
+| `c03-category-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | Logo `logo-laowan.png` | prompt zh-CN | passed |
+| `c04-category-4x5-1122x1402.png` | 电商主图 | 1122x1402 | Logo `logo-laowan.png` | prompt zh-CN | passed |
+| `c05-category-16x9-1672x941.png` | 门头灯箱 | 1672x941 | Logo `logo-xiandao.png` | prompt zh-CN | passed |
+| `c06-category-9x16-941x1672.png` | 门店竖屏 | 941x1672 | Logo `logo-shanyu.png` | plan zh-CN | passed |
+| `s01-size-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 原图 `beef-noodle.jpg`、Logo `logo-laowan.png` | prompt zh-CN | passed |
+| `s02-size-3x4-1086x1448.png` | 菜单主推 | 1086x1448 | 原图 `beef-noodle.jpg`、Logo `logo-laowan.png` | prompt zh-CN | passed |
+| `s03-size-9x16-941x1672.png` | 门店竖屏 | 941x1672 | 原图 `beef-noodle.jpg`、Logo `logo-laowan.png` | prompt zh-CN | passed |
+| `s04-size-16x9-1672x941.png` | 门头灯箱 | 1672x941 | 原图 `beef-noodle.jpg`、Logo `logo-laowan.png` | prompt zh-CN | passed |
+| `s05-category-3x4-1086x1448.png` | 菜单主推 | 1086x1448 | 商品图 `product-shanyu-coldbrew.jpg`、Logo `logo-shanyu.png` | prompt zh-CN | passed |
 | `s06-category-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 仅商品名称 | prompt zh-CN | passed |
 | `s07-category-4x5-1122x1402.png` | 电商主图 | 1122x1402 | 仅商品名称 | prompt zh-CN | passed |
-| `s08-special-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 原图 `beef-noodle` | prompt en-US | passed |
-| `s09-special-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 原图 `beef-noodle` | prompt ja-JP | passed |
+| `s08-special-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 原图 `beef-noodle.jpg`、Logo `logo-laowan.png` | prompt en-US | passed |
+| `s09-special-1x1-1254x1254.png` | 外卖主图 | 1254x1254 | 原图 `beef-noodle.jpg`、Logo `logo-laowan.png` | prompt ja-JP | passed |
 
-## 商品原图
+## 输入素材
 
-`sources/` 里是用到的原图缩样，来自 Unsplash，适用 [Unsplash License](https://unsplash.com/license)，**不属于**本仓库的 PolyForm Noncommercial 授权范围。
+`sources/` 里是生成时交给本编号的输入缩样，模拟商家手里的素材：带包装与 Logo 的商品图、品牌 Logo，个别为原图。
+演示品牌、Logo 和商品图由本项目生成；其中以 Unsplash 照片为底的，署名如下，适用 [Unsplash License](https://unsplash.com/license)，**不属于**本仓库的 PolyForm Noncommercial 授权范围。
 
-| 原图 | 来源 · 摄影师 |
+| 输入 | 说明 · 来源 |
 |---|---|
-| `sources/beef-noodle.jpg` | [WnPghXNUnZM](https://unsplash.com/photos/WnPghXNUnZM) · @jyredrose |
-| `sources/cold-brew.jpg` | [7moPg-okWAI](https://unsplash.com/photos/7moPg-okWAI) · @elozanov |
+| `sources/beef-noodle.jpg` | 原图 [WnPghXNUnZM](https://unsplash.com/photos/WnPghXNUnZM) · @jyredrose |
+| `sources/logo-laowan.png` | 演示品牌 Logo，本项目生成 |
+| `sources/logo-shanyu.png` | 演示品牌 Logo，本项目生成 |
+| `sources/logo-xiandao.png` | 演示品牌 Logo，本项目生成 |
+| `sources/product-shanyu-coldbrew.jpg` | 演示商品图，本项目生成；底图 [7moPg-okWAI](https://unsplash.com/photos/7moPg-okWAI) · @elozanov |

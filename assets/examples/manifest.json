@@ -10,14 +10,14 @@
    "id": "c01",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "logo-laowan",
    "use": {
     "zh": "外卖主图",
     "en": "Delivery-app image"
    },
    "product": {
-    "zh": "麻辣小龙虾",
-    "en": "Spicy crayfish"
+    "zh": "老碗 麻辣小龙虾",
+    "en": "LAOWAN 麻辣小龙虾"
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
@@ -33,14 +33,14 @@
    "id": "c02",
    "section": "category",
    "ratio": "3:4",
-   "input": "name",
+   "input": "logo-shanyu",
    "use": {
     "zh": "菜单主推",
     "en": "Menu feature"
    },
    "product": {
-    "zh": "珍珠奶茶",
-    "en": "Bubble milk tea"
+    "zh": "山屿 珍珠奶茶",
+    "en": "SHANYU 珍珠奶茶"
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
@@ -56,14 +56,14 @@
    "id": "c03",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "logo-laowan",
    "use": {
     "zh": "外卖主图",
     "en": "Delivery-app image"
    },
    "product": {
-    "zh": "生煎包",
-    "en": "Pan-fried buns"
+    "zh": "老碗 生煎包",
+    "en": "LAOWAN 生煎包"
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
@@ -79,14 +79,14 @@
    "id": "c04",
    "section": "category",
    "ratio": "4:5",
-   "input": "name",
+   "input": "logo-laowan",
    "use": {
     "zh": "电商主图",
     "en": "Listing image"
    },
    "product": {
-    "zh": "自热火锅",
-    "en": "Self-heating hot pot"
+    "zh": "老碗 自热火锅",
+    "en": "LAOWAN 自热火锅"
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
@@ -102,14 +102,14 @@
    "id": "c05",
    "section": "category",
    "ratio": "16:9",
-   "input": "name",
+   "input": "logo-xiandao",
    "use": {
     "zh": "门头灯箱",
     "en": "Storefront lightbox"
    },
    "product": {
-    "zh": "三文鱼寿司拼盘",
-    "en": "Salmon sushi platter"
+    "zh": "鲜岛 三文鱼寿司拼盘",
+    "en": "XIANDAO 三文鱼寿司拼盘"
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
@@ -125,14 +125,14 @@
    "id": "c06",
    "section": "category",
    "ratio": "9:16",
-   "input": "name",
+   "input": "logo-shanyu",
    "use": {
     "zh": "门店竖屏",
     "en": "Store vertical screen"
    },
    "product": {
-    "zh": "生椰拿铁",
-    "en": "Coconut latte"
+    "zh": "山屿 生椰拿铁",
+    "en": "SHANYU 生椰拿铁"
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
@@ -148,7 +148,7 @@
    "id": "s01",
    "section": "size",
    "ratio": "1:1",
-   "input": "beef-noodle",
+   "input": "beef-noodle+logo-laowan",
    "use": {
     "zh": "外卖主图",
     "en": "Delivery-app image"
@@ -171,7 +171,7 @@
    "id": "s02",
    "section": "size",
    "ratio": "3:4",
-   "input": "beef-noodle",
+   "input": "beef-noodle+logo-laowan",
    "use": {
     "zh": "菜单主推",
     "en": "Menu feature"
@@ -194,7 +194,7 @@
    "id": "s03",
    "section": "size",
    "ratio": "9:16",
-   "input": "beef-noodle",
+   "input": "beef-noodle+logo-laowan",
    "use": {
     "zh": "门店竖屏",
     "en": "Store vertical screen"
@@ -217,7 +217,7 @@
    "id": "s04",
    "section": "size",
    "ratio": "16:9",
-   "input": "beef-noodle",
+   "input": "beef-noodle+logo-laowan",
    "use": {
     "zh": "门头灯箱",
     "en": "Storefront lightbox"
@@ -240,7 +240,7 @@
    "id": "s05",
    "section": "category",
    "ratio": "3:4",
-   "input": "cold-brew",
+   "input": "product-shanyu-coldbrew+logo-shanyu",
    "use": {
     "zh": "菜单主推",
     "en": "Menu feature"
@@ -309,7 +309,7 @@
    "id": "s08",
    "section": "special",
    "ratio": "1:1",
-   "input": "beef-noodle",
+   "input": "beef-noodle+logo-laowan",
    "use": {
     "zh": "外卖主图",
     "en": "Delivery-app image"
@@ -332,7 +332,7 @@
    "id": "s09",
    "section": "special",
    "ratio": "1:1",
-   "input": "beef-noodle",
+   "input": "beef-noodle+logo-laowan",
    "use": {
     "zh": "外卖主图",
     "en": "Delivery-app image"
