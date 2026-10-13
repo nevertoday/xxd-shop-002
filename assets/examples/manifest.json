@@ -1,0 +1,181 @@
+{
+ "skill": "002",
+ "special": {
+  "zh": "菜名换语言",
+  "en": "The dish name in other languages"
+ },
+ "set": null,
+ "items": [
+  {
+   "id": "s01",
+   "section": "size",
+   "ratio": "1:1",
+   "input": "beef-noodle",
+   "use": {
+    "zh": "外卖主图",
+    "en": "Delivery-app image"
+   },
+   "product": {
+    "zh": "老碗 红油牛肉面",
+    "en": "LAOWAN chilli-oil beef noodles"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": true,
+   "file": "s01-size-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s02",
+   "section": "size",
+   "ratio": "3:4",
+   "input": "beef-noodle",
+   "use": {
+    "zh": "菜单主推",
+    "en": "Menu feature"
+   },
+   "product": {
+    "zh": "老碗 红油牛肉面",
+    "en": "LAOWAN chilli-oil beef noodles"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s02-size-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s03",
+   "section": "size",
+   "ratio": "9:16",
+   "input": "beef-noodle",
+   "use": {
+    "zh": "门店竖屏",
+    "en": "Store vertical screen"
+   },
+   "product": {
+    "zh": "老碗 红油牛肉面",
+    "en": "LAOWAN chilli-oil beef noodles"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s03-size-9x16-941x1672.png",
+   "pixels": "941x1672"
+  },
+  {
+   "id": "s04",
+   "section": "size",
+   "ratio": "16:9",
+   "input": "beef-noodle",
+   "use": {
+    "zh": "门头灯箱",
+    "en": "Storefront lightbox"
+   },
+   "product": {
+    "zh": "老碗 红油牛肉面",
+    "en": "LAOWAN chilli-oil beef noodles"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s04-size-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "s05",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "cold-brew",
+   "use": {
+    "zh": "菜单主推",
+    "en": "Menu feature"
+   },
+   "product": {
+    "zh": "山屿 冷萃咖啡",
+    "en": "SHANYU cold brew"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s05-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s06",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "外卖主图",
+    "en": "Delivery-app image"
+   },
+   "product": {
+    "zh": "葡式蛋挞",
+    "en": "Portuguese egg tart"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s06-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s07",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "name",
+   "use": {
+    "zh": "电商主图",
+    "en": "Listing image"
+   },
+   "product": {
+    "zh": "梅菜扣肉",
+    "en": "Braised pork with preserved greens"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s07-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "s08",
+   "section": "special",
+   "ratio": "1:1",
+   "input": "beef-noodle",
+   "use": {
+    "zh": "外卖主图",
+    "en": "Delivery-app image"
+   },
+   "product": {
+    "zh": "老碗 红油牛肉面",
+    "en": "LAOWAN chilli-oil beef noodles"
+   },
+   "text": "prompt en-US",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s08-special-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s09",
+   "section": "special",
+   "ratio": "1:1",
+   "input": "beef-noodle",
+   "use": {
+    "zh": "外卖主图",
+    "en": "Delivery-app image"
+   },
+   "product": {
+    "zh": "老碗 红油牛肉面",
+    "en": "LAOWAN chilli-oil beef noodles"
+   },
+   "text": "prompt ja-JP",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s09-special-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  }
+ ]
+}

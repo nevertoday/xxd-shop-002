@@ -10,9 +10,34 @@
 
 > 原始提示词：[简体中文原文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md)
 
+<!-- xxd-samples:start -->
 ## 样张
 
-暂无样张。下文命令只是用法示例，不是视觉证据。
+<p align="center"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" width="720" alt="外卖主图"></a><br><sub>外卖主图 · 1:1 · 1254x1254<br>老碗 红油牛肉面 · <a href="assets/examples/sources/beef-noodle.jpg">原图</a> · 按原稿生成（中文）</sub></p>
+
+### 一个商品，适配每个位置
+
+同一商品、同一份原稿，每个比例都重新构图，不是裁切。
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="外卖主图"></a><br><sub>外卖主图 · 1:1 · 1254x1254<br>老碗 红油牛肉面 · <a href="assets/examples/sources/beef-noodle.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="菜单主推"></a><br><sub>菜单主推 · 3:4 · 1086x1448<br>老碗 红油牛肉面 · <a href="assets/examples/sources/beef-noodle.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-941x1672.png"><img src="assets/examples/preview/s03-size-9x16-941x1672.webp" height="200" alt="门店竖屏"></a><br><sub>门店竖屏 · 9:16 · 941x1672<br>老碗 红油牛肉面 · <a href="assets/examples/sources/beef-noodle.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="门头灯箱"></a><br><sub>门头灯箱 · 16:9 · 1672x941<br>老碗 红油牛肉面 · <a href="assets/examples/sources/beef-noodle.jpg">原图</a> · 按原稿生成（中文）</sub></td></tr>
+</table>
+
+### 换一个品类也成立
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="220" alt="菜单主推"></a><br><sub>菜单主推 · 3:4 · 1086x1448<br>山屿 冷萃咖啡 · <a href="assets/examples/sources/cold-brew.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-1x1-1254x1254.png"><img src="assets/examples/preview/s06-category-1x1-1254x1254.webp" height="220" alt="外卖主图"></a><br><sub>外卖主图 · 1:1 · 1254x1254<br>葡式蛋挞 · 仅商品名称 · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-4x5-1122x1402.png"><img src="assets/examples/preview/s07-category-4x5-1122x1402.webp" height="220" alt="电商主图"></a><br><sub>电商主图 · 4:5 · 1122x1402<br>梅菜扣肉 · 仅商品名称 · 按原稿生成（中文）</sub></td></tr>
+</table>
+
+### 菜名换语言
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s08-special-1x1-1254x1254.png"><img src="assets/examples/preview/s08-special-1x1-1254x1254.webp" height="220" alt="外卖主图"></a><br><sub>外卖主图 · 1:1 · 1254x1254<br>老碗 红油牛肉面 · <a href="assets/examples/sources/beef-noodle.jpg">原图</a> · 按原稿生成（英文）</sub></td><td align="center" valign="top"><a href="assets/examples/s09-special-1x1-1254x1254.png"><img src="assets/examples/preview/s09-special-1x1-1254x1254.webp" height="220" alt="外卖主图"></a><br><sub>外卖主图 · 1:1 · 1254x1254<br>老碗 红油牛肉面 · <a href="assets/examples/sources/beef-noodle.jpg">原图</a> · 按原稿生成（日文）</sub></td></tr>
+</table>
+
+<sub>样张商品均为虚构的演示品牌，价格、规格等数字为演示设定；商品原图来自 Unsplash，署名与许可见 [assets/examples/README.md](assets/examples/README.md)。每张都是单次生成的完整画面，未修图、未拼接、未放大，像素照实标注；没通过目视验收的已重出，不放进来。点开看原尺寸。</sub>
+
+<!-- xxd-samples:end -->
 
 ## 它解决什么
 
